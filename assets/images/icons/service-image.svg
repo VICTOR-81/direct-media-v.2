@@ -1,0 +1,8 @@
+<svg id="Layer_1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 150 150">
+  <g fill="#025add" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+    <g transform="scale(3,3)">
+      <path d="M0,5v40h50v-40zM2,7h46v26h-10.67969l-7,-5h-5.90625l-4.08594,-4.08594l-4.86719,0.97656l-4.30469,-6.46094l-9.15625,9.15625zM37.5,13c-2.47266,0 -4.5,2.02734 -4.5,4.5c0,2.47266 2.02734,4.5 4.5,4.5c2.47266,0 4.5,-2.02734 4.5,-4.5c0,-2.47266 -2.02734,-4.5 -4.5,-4.5zM37.5,15c1.39063,0 2.5,1.10938 2.5,2.5c0,1.39063 -1.10937,2.5 -2.5,2.5c-1.39062,0 -2.5,-1.10937 -2.5,-2.5c0,-1.39062 1.10938,-2.5 2.5,-2.5zM10.84375,21.57031l3.69531,5.53906l5.13281,-1.02344l3.91406,3.91406h6.09375l7,5h11.32031v8h-46v-12.58594z">
+      </path>
+    </g>
+  </g>
+</svg>

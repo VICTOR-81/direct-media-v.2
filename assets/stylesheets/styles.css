@@ -1565,10 +1565,11 @@ section {background: var(--light-color);}
   font-size: 40px;
   margin-bottom: 20px;
   color: var(--hero-text-color);
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   letter-spacing: 0.7px;
   font-weight: 600;
 }
+
 .hero span{
   color: var(--color-primary);
   font-weight: bold;
