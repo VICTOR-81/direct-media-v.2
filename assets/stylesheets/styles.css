@@ -749,6 +749,12 @@ section {background: var(--light-color);}
 .right {
   text-align: left;
 }
+.left,
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .list-wrap{
   display: flex;
   gap: 20px;
@@ -791,6 +797,9 @@ section {background: var(--light-color);}
   width: 100%;
   border-radius: 20px;
   opacity: 0.9;
+}
+.description{
+  width: 216%;
 }
 
 /*--------------------------------------------------------------
@@ -1274,6 +1283,10 @@ section {background: var(--light-color);}
 /*--------------------------------------------------------------
 # Our Team Section
 --------------------------------------------------------------*/
+.team-flex{
+  justify-content: center;
+}
+
 .team .member {
   text-align: center;
   border-radius: 10px;
