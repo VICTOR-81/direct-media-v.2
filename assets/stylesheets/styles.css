@@ -3490,6 +3490,13 @@ canvas{
   text-transform: capitalize;
 }
 
+.contact-widget a {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: var(--text-white-color);
+  line-height: 28px;
+}
+
 .subscribe-form {
   position: relative;
   overflow: hidden;
