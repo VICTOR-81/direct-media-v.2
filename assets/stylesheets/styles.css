@@ -453,6 +453,7 @@ img:hover {
 .header .logo img {
   max-height: 40px;
   margin-right: 6px;
+  width: 100%;
 }
 
 .header.stikcy-menu {
@@ -1142,7 +1143,7 @@ section {background: var(--light-color);}
   transform: scale(20);
 }
 
-.call-to-action .cta-btn {
+.call-to-action .cta-btn, .video-btn {
   font-family: var(--font-primary);
   font-weight: 500;
   font-size: 16px;
@@ -1156,8 +1157,12 @@ section {background: var(--light-color);}
   background: linear-gradient(45deg, var(--color-primary), var(--color-secondary));
 }
 
-.call-to-action .cta-btn:hover {
+.call-to-action .cta-btn:hover, .video-btn:hover {
   background: linear-gradient(45deg, var(--color-secondary), var(--color-primary));
+}
+
+.video-btn:hover {
+  color: var(--menu-color);
 }
 
 @keyframes pulsate-btn {
@@ -1578,7 +1583,7 @@ section {background: var(--light-color);}
 }
 
 .hero h2 {
-  font-size: 40px;
+  font-size: 60px;
   margin-bottom: 20px;
   color: var(--hero-text-color);
   /* text-transform: capitalize; */
@@ -1595,6 +1600,7 @@ section {background: var(--light-color);}
   color: var(--text-color);
   font-weight: 400;
   margin-bottom: 30px;
+  font-size: 22px;
 }
 
 .btn-get-started {
@@ -1639,7 +1645,10 @@ section {background: var(--light-color);}
     background: url(../images/hero-bg.png) center center;
   }
   .hero h2 {
-    font-size: 22px;
+    font-size: 30px;
+  }
+  .hero p {
+    font-size: 20px;
   }
   .call-to-action {
     background: url(../images/cta-bg.jpg) center left;
@@ -1660,6 +1669,9 @@ section {background: var(--light-color);}
   .caption .social{
     justify-content: center;
   }
+  .hero p {
+    font-size: 16px;
+  }
   .btn-get-started,
   .hero .btn-watch-video {
     font-size: 14px;
@@ -1675,7 +1687,7 @@ section {background: var(--light-color);}
 @media (min-width: 768px) {
   .btn-get-started,
   .hero .btn-watch-video {
-    font-size: 14px;
+    font-size: 20px;
   }
   .icon-boxes .card-two{
     margin-top: -20px;
