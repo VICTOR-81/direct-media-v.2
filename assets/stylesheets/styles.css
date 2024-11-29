@@ -1161,6 +1161,18 @@ section {background: var(--light-color);}
   background: linear-gradient(45deg, var(--color-secondary), var(--color-primary));
 }
 
+video {
+  border-radius: 10px;
+}
+
+.video-btn-wrapper{
+  text-align: center;
+}
+
+.video-btn {
+  margin: 30px auto 10px;
+}
+
 .video-btn:hover {
   color: var(--menu-color);
 }
